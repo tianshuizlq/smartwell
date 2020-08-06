@@ -19,7 +19,7 @@ class BaseController extends Controller
             "message" => '',
             'data' => $data,
         );
-        return json_encode($result, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES);
+        return json_encode($result, JSON_UNESCAPED_UNICODE);
     }
 
     public function errorMessage($code, $message,$data) {
@@ -28,6 +28,6 @@ class BaseController extends Controller
             "message" => $message,
             'data' => $data,
         );
-        return json_encode($result, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES);
+        return json_encode($result, JSON_UNESCAPED_UNICODE);
     }
 }
