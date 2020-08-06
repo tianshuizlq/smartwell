@@ -1,0 +1,26 @@
+{
+  "name": "tianshuizlq/smartwell",
+  "description": "smartwell", 
+  "keywords": [ 
+    "smartwell"
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "laravel/framework": ">=7.0"
+  },
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tianshuizlq",
+      "email": "634652792@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Smartwell\\": "src"
+    }
+  }
+}
+
