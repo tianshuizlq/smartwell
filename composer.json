@@ -21,6 +21,13 @@
     "psr-4": {
       "Smartwell\\": "src"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+
+      ]
+    }
   }
 }
 
